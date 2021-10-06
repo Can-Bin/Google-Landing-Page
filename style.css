@@ -1,0 +1,302 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow-x: scroll;
+}
+
+
+
+nav{
+    width: 100%;
+    height: 3rem;
+    /* border: 1px solid red; */
+    display: block; 
+}
+
+.leftli a:hover{
+    text-decoration: underline;
+}
+
+.rightli a:hover{
+    text-decoration: underline;
+}
+
+
+#left{
+    /* border: 1px solid black; */
+    float: left;
+    width: 20%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    padding-top: 10px;
+   
+    
+}
+
+.leftli{
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px;
+    /* border: 1px solid red; */
+
+    
+    
+}
+
+#right{
+    /* border: 1px solid black; */
+    float: right;
+    width: 20%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 10px;
+}
+
+#right .rightli{
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px;
+    align-items: center;
+
+}
+
+.leftli a{
+    color: gray;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+.rightli a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+}
+
+#right ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+#left ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+button{
+    background-color: #4285f4;
+    color: white;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    margin-right: 10px;
+    width: 65px;
+    height: 30px;
+}
+
+#ikon{
+    opacity: .5;
+}
+
+#ikon:hover{
+    opacity:1;
+}
+
+.rightli #but1{
+    border: none;
+    border-radius: 1px;
+    
+}
+
+#sec1{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 85px;
+    display: block;
+    text-align: center;
+    padding-top: 70px;
+    margin: auto;
+    
+}
+
+#google{
+    padding: 20px;
+    
+}
+
+#sb{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+}
+
+
+
+
+/* #searchbox{
+    width: 45%;
+    height: 2.5rem;
+    border-radius: 30px;
+    border: 1px solid gray;
+    text-align: center;
+    
+} */
+
+
+#searchbox{
+    width: 50%;
+    max-width: 500px;
+    height: 2.8rem;
+    border-radius: 25px;
+    border: 1px solid rgb(201, 199, 199);
+    background-image: url(./images/magnifying_glass.jpg);
+    background-position-x: 2rem;
+    background-position-y: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+    
+}
+
+#mic{
+    position: relative;
+    right: 45px;
+    top: 2.5px;
+
+}
+
+.buton-sec{
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+#src-btn{
+    width: auto;
+    height: 35px;
+    margin-right: 10px ;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.705)
+}
+
+#src-btn:hover{
+    color: black;
+    cursor: pointer;
+}
+
+#lucky{
+    width: auto;
+    height: 35px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.705)
+}
+
+#lucky:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.buton-sec p{
+    margin: 10px;
+    font-size: 0.85rem;
+}
+
+
+#ftr1{
+    /* border: 1px solid red; */
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #f2f2f2;
+    align-items: center;
+    height: 4rem;
+}
+
+.country{
+    float: left;
+    width: 100%;
+    line-height: 0.3rem;
+    margin-left: 10px;
+    color: #5f6368;
+    height: 2rem;
+    
+}
+
+.left-footer{
+    /* border: 1px solid black; */
+    float: left;
+    width: 70%;
+    line-height: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    height: 0.8rem;
+}
+
+.right-footer{
+    /* border: black 1px solid; */
+    width: 25%;
+    float: right;
+    line-height: 0.5rem;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    height: 0.8rem;
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+
+
+.ftr-link{
+    color: #5f6368;
+    font-size: 0.9rem;
+}
+
+.ftr-link:hover{
+    text-decoration: underline;
+}
+
+#searchbox:hover{
+    box-shadow: 0px 3px 5px rgb(201, 196, 196);
+}
+
+#searchbox:focus{
+    /* border: none; */
+    outline: rgb(201, 199, 199);
+    
+}
+
+
+
+
+
+
+
+
+
+
